@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title> 雾雨霜星 | DA☆ZE</title>
+  </head>
+  <body>
+  <!-- built files will be auto injected -->
+  <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+<!-- 添加背景的粒子动效 -->
+  <script id="MovingParticles" type="text/javascript" color="0,0,0" opacity='0.7' zIndex="-3" count="199"
+          src="//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js">
+  </script>
+<!-- 控制例子运动背景的显示:PC端等到Loading完毕显示,移动端不显示  -->
+<script>
+    MP=document.getElementById('c_n1');
+    MP.setAttribute("opacity",'0');
+    if(window.screen.width < 650){
+        /* 从源码中可以看到，执行了上述添加动态例子背景后会产生id为c_n1的canvas元素，在移动端删除该节点元素 */
+        MP.remove();
+    }
+    else{
+        setTimeout(() => {
+            let MP = document.getElementById('c_n1');
+            MP.setAttribute("opacity",'1.0');
+        },5000)
+    }
+</script>
+  </body>
+</html>
+<script>
+</script>

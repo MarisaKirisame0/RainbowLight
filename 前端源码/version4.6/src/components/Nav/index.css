@@ -1,0 +1,99 @@
+#home-nav-block{
+      font-family:"KaiTi",cursive,"宋体",Serif;
+      font-size: large;
+      font-style: normal;
+      font-weight: 500;
+}
+#home-nav {
+    width:30%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    border:1px solid #949292;
+    background-color: rgba(0,0,0,.1);
+    text-align:center;
+    box-shadow:inset 0 0 3px #5B5858;
+    transition: all 0.5s linear;
+}
+#home-nav:hover {
+    border-radius: 20px;
+    background-color: rgba(0,0,0,.2);
+}
+.page-nav-link {
+    margin: 5px 2% 4px 2%;
+    /* 设置消除route link标签内字体的下划线 */
+    text-decoration:none;
+    /* 设置导航连接在未被选中时的颜色 */
+    color: black;
+}
+.page-nav-link:hover {
+    color: darkviolet;/* 设置导航连接在被选中时的颜色 */
+}
+.page-nav-link > p {
+    margin-top:1px ;
+    margin-bottom:1px;
+}
+.page-nav-words{
+    margin:1px;
+    text-align:center;
+}
+/* 媒体介质不是电脑时配置样式 */
+@media screen and (max-width: 1350px){
+    #home-nav {
+        width:50%;
+        position: relative;
+        left: 0;
+        right: 0;
+        margin:0 auto;
+    }
+}
+@media screen and (max-width: 900px){
+    #home-nav-block{
+        font-family:MYFZKTJW,sans-serif,"宋体",Serif;
+        font-size: large;
+        font-style: normal;
+        font-weight: bold;
+    }
+    #home-nav {
+        width:60%;
+        position: relative;
+        left: 0;
+        right: 0;
+        margin:0 auto;
+    }
+}
+@media screen and (max-width: 650px){
+    #home-nav-block{
+        font-family:MYFZKTJW,sans-serif,"宋体",Serif;
+        font-size: large;
+        font-style: normal;
+        font-weight: bold;
+    }
+    #home-nav {
+        position: absolute;
+        width:100%;
+        margin:0;
+        box-shadow:none;
+        border:0;
+        background-color: rgba(255,255,255,0);
+        transition: none;
+        backdrop-filter:blur(5px);
+    }
+    #home-nav:hover {
+        border-radius: 0;
+        background-color: rgba(255,255,255,.1);
+    }
+    .page-nav-link > p {
+        font-size: small;
+        letter-spacing: 1px;
+    }
+    .page-nav-words{
+        text-align:center;
+    }
+}
+@media screen and (max-width: 295px){
+    .page-nav-link {
+        margin: 5px 10px 4px 10px;
+    }
+}

@@ -1,0 +1,25 @@
+/*
+用于设置外部引入字体的CSS文件
+*/
+
+/* 经过压缩后的方正楷体 */
+@font-face {
+    font-family: 'MYFZKTJW';
+    src: url('MYFZKTJW.TTF');
+}
+/* 方正楷体 */
+@font-face {
+    font-family: 'FZKTJW';
+    src: url('https://cdn.jsdelivr.net/gh/MarisaKirisame0/fonts@latest/fontRes/FZKTJW.TTF');
+}
+/* 姑苏行书 */
+@font-face {
+    font-family: 'FZSJGUSXS';
+    /*src: url('https://cdn.jsdelivr.net/gh/MarisaKirisame0/fonts@latest/fontRes/FZSJ-GUSXS.TTF');*/
+    src: url('MYGUSXS.TTF');
+}
+/* 方宋刻本秀楷正 */
+@font-face {
+    font-family: 'FZSKBXKJW';
+    src: url('https://cdn.jsdelivr.net/gh/MarisaKirisame0/fonts@latest/fontRes/FZSKBXKJW.TTF');
+}

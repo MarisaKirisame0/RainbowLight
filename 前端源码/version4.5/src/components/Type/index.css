@@ -1,0 +1,72 @@
+.Type-Box{
+    color: rgb(0, 0, 0);
+}
+.Type-router-link{
+    position: relative;
+    width: 48%;
+    margin:30px 5px 0 5px;
+    background-color: #E6F0FE;
+    box-shadow: 0 1px 5px #949292;
+    text-decoration:none;
+    transition: background-color 1.5s linear;
+}
+.Type-router-link:hover{
+    background-color: rgba(255,255,255,0.5);
+}
+.Type-Word-Name{
+    width: 100px;
+    position: relative;
+    left:50%;
+    bottom: 30px;
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: 5px 3px 5px 3px;
+    background-color: rgba(255,255,255,.3);
+    border: 1px solid #E6F0FE;
+    border-radius: 10px;
+    font-family: "FZKTJW",sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.Type-Word-Info{
+    margin:10px 10px 10px 5px;
+    font-family: FZKTJW,sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+.TypeImage{
+    position: relative;
+    top:10px;
+    left:10%;
+    width:80px;
+    height:80px;
+    border:1px solid darkblue;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: all 0.7s linear;
+}
+.TypeImage:hover{
+    transform:rotate(360deg);
+}
+@media screen and (max-width: 650px) {
+    .Type-router-link{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 650px) {
+    .Type-router-link{
+        width: 100%;
+        margin:1px 0 1px 0;
+        background-color: rgba(255,255,255,.5);
+        box-shadow: 0 0 0;
+    }
+    .Type-Word-Name{
+        position: relative;
+        left:200px;
+        bottom: 50px;
+    }
+    .Type-Word-Info{
+        font-size: 14px;
+        font-weight: bold;
+    }
+}

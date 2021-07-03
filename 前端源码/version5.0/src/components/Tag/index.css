@@ -1,0 +1,20 @@
+.router-link{
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+    height: 100%;
+}
+.tag{
+    background-color: gainsboro;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px ;
+    font-family: FZSKBXKJW,sans-serif;
+    font-size: large;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.tag:hover{
+    background-color: silver;
+}
+@media screen and (max-width: 650px) {
+
+}

@@ -1,0 +1,77 @@
+#Header-Block{
+    text-align: center;
+    margin: 4% 0 1% 0;
+}
+#Header-Name{
+    width: 20%;
+    margin: 0 auto;
+    font-family:KaiTi,serif;
+    font-size: xxx-large;
+    font-style: normal;
+    font-weight: 1000;
+    color: #E6F0FE;
+    text-shadow:silver 0 0 5px;
+}
+#Header-Name:hover{
+    animation:normal;
+}
+#Header-Signature{
+    width: 20%;
+    margin: 9px auto;
+    letter-spacing: 5px;
+    font-family: FZSJGUSXS,sans-serif,"宋体",Serif;
+    font-size: x-large;
+    font-style: normal;
+    font-weight: normal;
+    color: rgba(0,0,0,.9);
+}
+@media screen and (max-width: 1320px) {
+    #Header-Signature {
+        width: 100%;
+        font-size: large;
+    }
+}
+@media screen and (max-width: 1000px) {
+    #Header-Name {
+        width: 100%;
+        font-family: MYFZKTJW,sans-serif,"宋体",Serif;
+        font-size: xx-large;
+        font-style: normal;
+        font-weight: 10;
+    }
+    #Header-Signature {
+        width: 100%;
+        font-family: FZSJGUSXS,sans-serif,"宋体",Serif;
+        font-size: large;
+        font-style: normal;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 650px) {
+    #Header-Block {
+        color: #E6F0FE;
+        text-shadow: silver 0 0 5px;
+        margin: 0 0 10% 0;
+    }
+    #Header-Name {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 30px;
+        font-family: MYFZKTJW,sans-serif,"宋体",Serif;
+        font-size: xx-large;
+        font-style: normal;
+        font-weight: 10;
+        color: #E6F0FE;
+        text-shadow: silver 0 0 5px;
+    }
+    #Header-Signature {
+        width: 100%;
+        margin: 10px auto 0 auto;
+        letter-spacing: 1px;
+        font-family: FZSJGUSXS,sans-serif,"宋体",Serif;
+        font-size: large;
+        font-style: normal;
+        font-weight: bold;
+        color: rgba(0, 0, 0, .8);
+    }
+}

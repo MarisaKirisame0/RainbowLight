@@ -1,0 +1,27 @@
+.HeadImage-Background{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: -2;
+}
+.img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.WaveImage-Block{
+    position: absolute;
+    top: 150px;/* 注意这里的设置必须是定值，因为图片的高度是一定的 */
+    width:100%;
+}
+@media screen and (max-width: 650px) {
+    .img{
+        width: 100%;
+        height:150px;
+    }
+    .WaveImage-Block{
+        display: none;
+    }
+}

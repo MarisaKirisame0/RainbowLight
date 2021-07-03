@@ -1,0 +1,32 @@
+#Background{
+    position: fixed;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index: -1;
+    opacity: 0.8;
+}
+#Background-image{
+    width:100%;
+    height:100%;
+/*    z-index: -999;*/
+    z-index: -1;
+}
+@media screen and (max-width: 650px) {
+    #Background{
+        position: fixed;
+        top:0;
+        left: auto;
+        opacity: 0.4;
+        margin: 0;
+        padding: 0;
+    }
+    #Mobile-Background{
+        width:100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        opacity: 0.3;
+    }
+}

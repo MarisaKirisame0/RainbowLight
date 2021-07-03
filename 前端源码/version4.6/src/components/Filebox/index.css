@@ -1,0 +1,60 @@
+#file-box{
+    font-family: "STFangsong",sans-serif,"宋体",Serif;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0 1px 5px #A9A9A9;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+#file-box:hover{
+    margin-top: 5px;
+    box-shadow: 2px 5px 5px 1px #A9A9A9;
+}
+.article-router-link{
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+    height: 100%;
+}
+.title{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+.title > p{
+    margin: 15px 0 0 10px;
+}
+.type-tags-create{
+    display: flex;
+    align-content: center;
+    width: 100%;
+    height: 30%;
+    box-shadow: 0 -1px 3px #FFFFFF;
+}
+.type-tags-create > div{
+    margin: 10px 0 0 10px;
+}
+.type-tags-create-span{
+    margin-right: 10px;
+    font-size: 0.5rem;
+}
+@media screen and (max-width: 650px) {
+    #file-box{
+        font-family: "FZKTJW",sans-serif,"宋体",Serif;
+    }
+    #TagSVGIcon{
+        display: none;
+    }
+    #CreateTimeSVGIcon{
+        display: none;
+    }
+    #TagsSpan{
+        display: none;
+    }
+    #CreateTimeSVGIcon{
+        display: none;
+    }
+}

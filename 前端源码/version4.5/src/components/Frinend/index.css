@@ -1,0 +1,61 @@
+.FriendLink{
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration:none;
+    box-shadow: 0 2px 5px silver;
+    border-radius: 7px;
+}
+.FriendBlock{
+    background-color: rgba(255,255,255,0.6);
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: background-color 0.5s linear;
+}
+.FriendBlock:hover{
+    background-color: rgba(255,255,255,0.1);
+}
+.Friend-Avatar{
+    width: 50px;
+    height: 50px;
+    margin:5px auto;
+    border: 1px solid darkslateblue;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: transform 0.7s linear;
+}
+.Friend-Avatar:hover{
+    transform:rotate(360deg);
+}
+.Friend-Name{
+    margin:5px 0 5px 0;
+    font-family: FZKTJW,serif;
+    font-size: large;
+}
+.Friend-Info{
+    margin:5px 0 5px 0;
+    font-family: FZSKBXKJW,cursive;
+}
+@media screen and (max-width: 650px) {
+    .FriendLink{
+        width: 100%;
+    }
+    .FriendBlock{
+        background-color: rgba(255,255,255,0.6);
+        height: 90px;
+        transition: none;
+    }
+    .FriendBlock:hover{
+        background-color: rgba(255,255,255,0.6);
+    }
+    .Friend-Avatar{
+        position: relative;
+        left: 10px;
+        margin:5px 0;
+        width: 50px;
+        height: 50px;
+    }
+}

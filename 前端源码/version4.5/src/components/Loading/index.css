@@ -1,0 +1,61 @@
+#loadingimg{
+    width: 100%;
+    height: 100%;
+    z-index:2;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+#loadingimg-Mobile{
+    display: none;
+}
+#LoadingText{
+    position: fixed;
+    top:100px;
+    left: 0;
+    right: 0;
+    z-index:3;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-family: Gabriola, cursive,"宋体",Serif;
+    font-size: xx-large;
+    letter-spacing: 5px;
+}
+.ImagePreLoad{
+    opacity: 0.1;
+    z-index: -9;
+}
+.fade-enter,
+.fade-leave-active {
+    opacity: 0;
+}
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 1.0s;
+}
+@media screen and (max-width: 650px) {
+    #loadingimg{
+        display: none;
+    }
+    #loadingimg-Mobile{
+        display: initial;
+        width: 100%;
+        height: 100%;
+        z-index:2;
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+    #LoadingText{
+        padding-left: 1px;
+        padding-right: 1px;
+        color: white;
+        font-family: Gabriola,FZSKBXKJW,cursive,"宋体",Serif;
+        font-size: medium;
+        letter-spacing: 1px;
+    }
+    .ImagePreLoad{
+        display: none;
+    }
+}

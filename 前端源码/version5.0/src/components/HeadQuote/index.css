@@ -1,0 +1,31 @@
+#QuoteBlock{
+    margin: 50px auto;
+}
+#QuoteIconLeft{
+    position: relative;
+    right:200px;
+    float: left;
+}
+#QuoteIconRight{
+    position: relative;
+    left:200px;
+    float: right;
+}
+#QuoteText{
+    text-align: center;
+    font-family: "KaiTi",sans-serif,"宋体",Serif;
+    font-size: larger;
+}
+@media screen and (max-width: 650px) {
+    #QuoteBlock{
+        display: none;
+/*        margin: 5px auto;
+        background-color: rgba(255,255,255,0);*/
+    }
+/*    #QuoteIconLeft{
+        right:50px;
+    }
+    #QuoteIconRight{
+        left:50px;
+    }*/
+}

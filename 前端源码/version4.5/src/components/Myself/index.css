@@ -1,0 +1,70 @@
+#Myself-main-area{
+    font-family: "Georgia",FZSKBXKJW,sans-serif,"宋体",Serif;
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+}
+#Author-Image{
+    width:100px;
+    height: 100px;
+    border:1px solid darkblue;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: all 2s linear;
+}
+#Author-Image:hover{
+    transform:rotate(-360deg);
+}
+.author-image-span{
+    margin: 0;
+}
+#DetailInfoBlock{
+    position: relative;
+    left: 20px;
+    margin: 0;
+}
+.svg-icon{
+    margin:0 5px 0 5px;
+}
+#AuthorName{
+    margin: 5px 0 5px 0;
+}
+#Signature{
+    margin: 5px 0 5px 0;
+}
+#Location{
+    margin: 5px 0 5px 0;
+}
+#University{
+    margin: 5px 0 5px 0;
+}
+#profession{
+    margin: 5px 0 5px 0;
+}
+@media screen and (max-width: 650px) {
+    #Myself-main-area{
+        width:100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        backdrop-filter:blur(50px);
+        font-size: medium;
+    }
+    #AvatarImageBlock{
+        margin: auto;
+        padding-bottom: 5px;
+    }
+    #DetailInfoBlock{
+        left: 5px;
+    }
+    #Location{
+    }
+    #University{
+        font-size: small;
+    }
+    #profession{
+        font-size: small;
+    }
+}

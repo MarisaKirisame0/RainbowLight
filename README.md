@@ -14,16 +14,30 @@ Author：霜星酱
 
 
 
+## 系统介绍
+
+前后端分离工程，实际的源码工程项目，目前还未开发兼容Hexo等其余博客平台。
+
+需要自己准备服务器，分别部署前端工程和后端工程。
+
+ "虹光"(RainbowLight)：一款具有二次元风格的博客主题，采用前后端分离的技术栈进行实现。 
+
+前端：Vue框架，VueCLI4.5工程。采用Axios与后端交互；采用highlight.js实现代码高亮；加入Valine评论系统。
+
+后端：Spring框架，SpringBoot工程。采用MyBatisPlus与MySQL数据库进行交互；加入SpringSecurity。
+
+
+
 ## 前端自改提示：
 
 1. 需要具备NodeJs的开发环境，使用npm进行模块安装的包管理。
-2. 在App.vue里面的mounted方法处设置loading动画的时长，目前已经从9s设置到4s。
-
-2. 评论系统设置：Comment.vue组件中找到SetValineObject函数，在其内进行配置，用的是Valine，需要自备LeanCloud账户。
-3. 网站浏览器页标题：index.html中修改title标签内容。
-4. 其余均写明注释。
-5. 没有使用jQuery。
-6. 需要安装Axios，使用npm安装即可。
+2. 需要具备VueCLI4.5的开发环境，使用npm安装即可。
+3. 需要安装Axios，使用npm安装即可。
+4. 在App.vue里面的mounted方法处设置loading动画的时长，目前已经从9s设置到4s。
+5. 评论系统设置：Comment.vue组件中找到SetValineObject函数，在其内进行配置，用的是Valine，需要自备LeanCloud账户。
+6. 网站浏览器页标题：index.html中修改title标签内容。
+7. 其余均写明注释。
+8. 没有使用jQuery。
 
 
 

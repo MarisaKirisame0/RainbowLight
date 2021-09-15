@@ -12,6 +12,9 @@ Author：霜星酱
 
 个人网站：[雾雨霜星 | DA☆ZE (shuangxing.top)](https://www.shuangxing.top)
 
+开源地址(gitee):https://gitee.com/marisa-kirisame/rainbow-theme
+开源地址(github):https://github.com/MarisaKirisame0/RainbowLight
+
 
 
 ## 系统介绍
